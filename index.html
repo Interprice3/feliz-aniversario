@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Uma pequena homenagem de aniversário para uma cunhada especial.">
+  <title>Feliz Aniversário, Cunhada! 💗</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="floating-hearts" aria-hidden="true">
+    <span>💗</span><span>✨</span><span>💜</span><span>💙</span><span>💗</span>
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="badge">🎀 Um dia muito especial 🎀</div>
+      <h1>Feliz Aniversário,<br><span>Cunhada!</span> 🎂</h1>
+      <p>
+        Hoje é dia de celebrar você, sua alegria, seus sonhos
+        e todas as coisas boas que ainda estão por vir. 💕
+      </p>
+      <button class="scroll-btn" onclick="scrollToPhotos()">Ver a homenagem ↓</button>
+    </section>
+
+    <section class="photos-section" id="homenagem">
+      <div class="section-title">
+        <span>💐</span>
+        <h2>Para você, com carinho</h2>
+        <p>Três fotos, três mensagens e muitos motivos para sorrir.</p>
+      </div>
+
+      <div class="photo-grid">
+        <article class="photo-card">
+          <div class="photo-frame">
+            <img src="foto1.jpg" alt="Foto de aniversário 1"
+                 onerror="this.src='https://placehold.co/800x1000/f4e8ff/7c3aed?text=FOTO+1';">
+            <div class="photo-number">01</div>
+          </div>
+          <div class="card-content">
+            <div class="icon">🌟</div>
+            <h3>Continue brilhando!</h3>
+            <p>
+              Nunca deixe de acreditar em você. Que cada novo dia
+              traga força para correr atrás dos seus sonhos e coragem
+              para conquistar aquilo que deseja.
+            </p>
+          </div>
+        </article>
+
+        <article class="photo-card">
+          <div class="photo-frame">
+            <img src="foto2.jpg" alt="Foto de aniversário 2"
+                 onerror="this.src='https://placehold.co/800x1000/e8f5ff/2563eb?text=FOTO+2';">
+            <div class="photo-number">02</div>
+          </div>
+          <div class="card-content">
+            <div class="icon">💙</div>
+            <h3>Que nunca falte felicidade!</h3>
+            <p>
+              Que a sua vida seja cheia de momentos inesquecíveis,
+              pessoas que te façam bem, muitos sorrisos e motivos
+              para agradecer todos os dias. ✨
+            </p>
+          </div>
+        </article>
+
+        <article class="photo-card">
+          <div class="photo-frame">
+            <img src="foto3.jpg" alt="Foto de aniversário 3"
+                 onerror="this.src='https://placehold.co/800x1000/ffe8f3/db2777?text=FOTO+3';">
+            <div class="photo-number">03</div>
+          </div>
+          <div class="card-content">
+            <div class="icon">😂</div>
+            <h3>Envelhecer? Só no documento!</h3>
+            <p>
+              Mais um ano de vida, mais experiência, mais histórias...
+              e aparentemente mais motivos para esconder a idade. 😂
+              O importante é continuar jovem de espírito!
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="message-section">
+      <div class="message-box">
+        <div class="cake">🎂</div>
+        <h2>Um desejo especial para você</h2>
+        <p>
+          Que este novo capítulo seja ainda mais bonito que os anteriores.
+          Que Deus abençoe seus caminhos, realize seus sonhos e coloque
+          muita paz, amor, saúde e felicidade na sua vida.
+        </p>
+        <p class="final-line">Feliz aniversário, cunhada! 💗💜💙</p>
+        <button id="surpriseBtn" class="surprise-btn">🎁 Abrir surpresa</button>
+        <div id="surprise" class="surprise" hidden>
+          <span>🥳</span>
+          <strong>Você merece um dia incrível!</strong>
+          <small>E agora vai aproveitar, porque aniversário só acontece uma vez por ano! 😂💗</small>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Feito com 💗, 💜 e 💙 especialmente para você.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
